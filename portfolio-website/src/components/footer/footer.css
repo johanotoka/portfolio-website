@@ -1,0 +1,15 @@
+footer {
+    background: var(--color-primary);
+    padding: 3rem 0;
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--color-bg);
+}
+
+.footer_copyright {
+    margin: 4rem 0;
+}
