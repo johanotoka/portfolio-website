@@ -18,7 +18,6 @@
 .work__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .title {
@@ -103,7 +102,16 @@
         grid-template-columns: 1fr;
     }
 
+    .experience__container {
+        gap: 1rem;
+    }
+
     .experience__container > div {
         width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr;
     }
 }
