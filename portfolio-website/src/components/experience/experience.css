@@ -24,8 +24,16 @@
     color: var(--color-primary);
 }
 
-.city {
+.location {
     color: var(--color-light);
+}
+
+.description {
+    margin-top: 2rem;
+}
+
+.point {
+    list-style: disc;
 }
 
 .experience__container {

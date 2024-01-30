@@ -1,33 +1,73 @@
 import React from 'react'
 import './experience.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import { jobs } from './jobs'
+import { volunteering_positions } from './volunteering'
 
 const Experience = () => {
     return (
         <section id='experience'>
             <h5>What Experience I Have</h5>
-            <h2>My Experience</h2>
+            <h2>Intership</h2>
             <div className="container work__container">
-                <div className="experience__work">
-                    <div className="work__header">
-                        <h3 className='title'>Research Assistant</h3>
-                        <h5 className='date'>May 2022 – Apr. 2023</h5>
-                    </div>
-                    <div className="work__subheader">
-                        <h5 className='company'>Lassonde School of Engineering</h5>
-                        <h5 className='city'>Toronto, ON</h5>
-                    </div>
-                </div>
-                <div className="experience__work">
-                    <div className="work__header">
-                        <h3 className='title'>IT Executive</h3>
-                        <h5 className='date'>Oct. 2022 – Feb. 2023</h5>
-                    </div>
-                    <div className="work__subheader">
-                        <h5 className='company'>ElleHacks</h5>
-                        <h5 className='city'>Toronto, ON</h5>
-                    </div>
-                </div>
+                {
+                    jobs.map((job) => {
+                        return (
+                            <div className="experience__work">
+                                <div className="work__header">
+                                    <h3 className='title'>{job.title}</h3>
+                                    <h5 className='date'>{job.date}</h5>
+                                </div>
+                                <div className="work__subheader">
+                                    <h5 className='company'>{job.company}</h5>
+                                    <h5 className='city'>{job.location}</h5>
+                                    <h5 className='description'>
+                                        <ul>
+                                            {
+                                                job.description.map((point) => {
+                                                    return (
+                                                        <li className='point' key={point}>{point}</li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </h5>
+                                </div>
+                            </div>
+                        );
+                    }
+                )}
+            </div>
+
+            <h2>Volunteering</h2>
+            <div className="container work__container">
+                {
+                    volunteering_positions.map((position) => {
+                        return (
+                            <div className="experience__work">
+                                <div className="work__header">
+                                    <h3 className='title'>{position.title}</h3>
+                                    <h5 className='date'>{position.date}</h5>
+                                </div>
+                                <div className="work__subheader">
+                                    <h5 className='company'>{position.company}</h5>
+                                    <h5 className='city'>{position.location}</h5>
+                                    <h5 className='description'>
+                                        <ul>
+                                            {
+                                                position.description.map((point) => {
+                                                    return (
+                                                        <li className='point' key={point}>{point}</li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </h5>
+                                </div>
+                            </div>
+                        );
+                    }
+                )}
             </div>
 
             <h2>My Skills</h2>
