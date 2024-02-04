@@ -43,10 +43,10 @@ export const volunteering_positions = [
     },
     {
         title: 'IT Executive',
-        date: 'Dec 2021 – Apr. 2022',
+        date: 'Dec. 2021 – Apr. 2022',
         company: 'ElleHacks',
         location: 'Toronto, ON',
-        description: [" Maintained and updated the ElleHacks official website using HTML5, CSS3 and JavaScript", "Used Figma mockups for prototyping designs of the updated website", "Collaborated on GitHub using an Agile methodology to solve issues and complete assigned tasks"]
+        description: ["Maintained and updated the ElleHacks official website using HTML5, CSS3 and JavaScript", "Used Figma mockups for prototyping designs of the updated website", "Collaborated on GitHub using an Agile methodology to solve issues and complete assigned tasks"]
     },
     {
         title: 'Store Manager',
@@ -61,5 +61,47 @@ export const volunteering_positions = [
         company: 'Google Developer Student Clubs',
         location: 'Toronto, ON',
         description: ["Worked on marketing and promoting Google DSC events and activities through social media", "Built and maintain constructive relationships with 3 other student-run clubs by co-hosting events", "Promoted and advertised YuHacks 2022 and reached 300+ people", "Co-hosted and moderated YuHacks 2022 workshops streamed by 80+ viewers"]
+    },
+    {
+        title: 'Week Zero Executive',
+        date: 'Jun. 2021 – Sep. 2021',
+        company: 'Lassonde Student Government',
+        location: 'Toronto, ON',
+        description: ["Planned and supervised events attended by more than 500 incoming students to facilitate their transition from high school to university"]
+    },
+    {
+        title: 'Week Zero Executive',
+        date: 'Jun. 2020 – Sep. 2020',
+        company: 'Lassonde Student Government',
+        location: 'Toronto, ON',
+        description: ["Organized and planned events attended by more than 300 incoming engineering freshmen to facilitate their transition from high school to university", "Hosted virtual events and led discussions to help the new students connect with one another and upper-year students", "Elected most engaging leader"]
+    },
+    {
+        title: 'Frosh Leader',
+        date: 'Jun. 2020 – Sep. 2020',
+        company: 'Lassonde Student Government',
+        location: 'Toronto, ON',
+        description: ["Monitored and moderated online events attended by more than 500 incoming science students"]
+    },
+    {
+        title: 'Volunteer',
+        date: 'Jan. 2020',
+        company: 'ElleHacks',
+        location: 'Toronto, ON',
+        description: ["Assisted in moderating events and workshops", "Managed logistics before and and after workshops"]
+    },
+    {
+        title: 'Technical Assistant',
+        date: 'Oct. 2019',
+        company: 'Global Event Management',
+        location: 'Dubai, UAE',
+        description: ["Troubleshot desktop computers used by the contestants of the Insomnia gaming festival", "Monitored contestants during Insomnia Dubai's Fortnite competition", "Automated carousels rode by hundreds of children"]
+    },
+    {
+        title: 'Math Tutor',
+        date: 'Sep. 2019 - Dec. 2019',
+        company: 'Canadian University Dubai',
+        location: 'Dubai, UAE',
+        description: ["Tutored introductory calculus (limits, derivatives, integrals) to freshmen students"]
     },
 ];
